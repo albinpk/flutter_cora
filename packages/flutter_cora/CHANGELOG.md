@@ -1,3 +1,7 @@
+## 0.0.1-dev.4
+
+ - **FIX**: update `pubspec.yaml`.
+
 ## 0.0.1-dev.3
 
  - **FIX**: update `pubspec.yaml`.

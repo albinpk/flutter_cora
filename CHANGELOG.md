@@ -15,6 +15,27 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`flutter_cora` - `v0.0.1-dev.4`](#flutter_cora---v001-dev4)
+
+---
+
+#### `flutter_cora` - `v0.0.1-dev.4`
+
+ - **FIX**: update `pubspec.yaml`.
+
+
+## 2024-09-25
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`flutter_cora` - `v0.0.1-dev.3`](#flutter_cora---v001-dev3)
 
 ---
