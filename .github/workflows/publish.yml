@@ -1,6 +1,8 @@
 name: Publish to pub.dev
 
 on:
+  workflow_dispatch:
+
   push:
     tags:
       - "flutter_cora-v[0-9]+.[0-9]+.[0-9]+*"
@@ -9,6 +11,37 @@ jobs:
   publish:
     permissions:
       id-token: write # Required for authentication using OIDC
-    uses: dart-lang/setup-dart/.github/workflows/publish.yml@v1
-    with:
-      working-directory: packages/flutter_cora
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Setup Flutter SDK
+        uses: kuhnroyal/flutter-fvm-config-action@v2
+        id: fvm-config-action
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: ${{ steps.fvm-config-action.outputs.FLUTTER_VERSION }}
+          channel: ${{ steps.fvm-config-action.outputs.FLUTTER_CHANNEL }}
+
+      - name: Install dependencies
+        run: flutter pub get
+        working-directory: packages/flutter_cora
+
+      - name: Flutter test
+        run: flutter test
+        working-directory: packages/flutter_cora
+
+      - name: Publish - dry run
+        run: flutter pub publish --dry-run
+        working-directory: packages/flutter_cora
+
+      #   - name: Publish to pub.dev
+      #     run: flutter pub publish -f
+      #     working-directory: packages/flutter_cora
+
+      - name: ">> Dart package <<"
+        uses: k-paxian/dart-package-publisher@master
+        with:
+          credentialJson: ${{ secrets.PUB_CREDENTIAL_JSON }}
+          relativePath: packages/flutter_cora
