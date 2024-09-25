@@ -1,6 +1,6 @@
 name: flutter_cora
 
 packages:
-  - packages/**
+  - packages/*
 
 sdkPath: .fvm/flutter_sdk
