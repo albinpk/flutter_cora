@@ -77,7 +77,13 @@ class HomeScreen extends CoraView<HomeState> {
 /// Home screen state (home_state.dart).
 class HomeState extends CoraState<HomeScreen> {
   /// Counter value.
-  late int counter = widget.initialValue ?? 0;
+  late int counter;
+
+  @override
+  void initState() {
+    super.initState();
+    counter = widget.initialValue ?? 0;
+  }
 
   /// Increment counter by 1.
   void increment() {
