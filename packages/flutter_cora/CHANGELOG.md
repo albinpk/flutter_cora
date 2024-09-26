@@ -1,3 +1,7 @@
+## 0.0.1-dev.7
+
+ - **DOCS**: update readme.
+
 ## 0.0.1-dev.6
 
  - **FIX**: update readme.
