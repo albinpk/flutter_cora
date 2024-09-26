@@ -15,6 +15,27 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`flutter_cora` - `v0.0.1-dev.8`](#flutter_cora---v001-dev8)
+
+---
+
+#### `flutter_cora` - `v0.0.1-dev.8`
+
+ - **DOCS**: add topics in pubspec.yaml.
+
+
+## 2024-09-26
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`flutter_cora` - `v0.0.1-dev.7`](#flutter_cora---v001-dev7)
 
 ---

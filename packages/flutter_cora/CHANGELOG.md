@@ -1,3 +1,7 @@
+## 0.0.1-dev.8
+
+ - **DOCS**: add topics in pubspec.yaml.
+
 ## 0.0.1-dev.7
 
  - **DOCS**: update readme.
