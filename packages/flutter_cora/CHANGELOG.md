@@ -1,3 +1,7 @@
+## 0.0.1-dev.13
+
+ - **DOCS**: add codecov badge in readme.
+
 ## 0.0.1-dev.12
 
  - **FIX**: update test.

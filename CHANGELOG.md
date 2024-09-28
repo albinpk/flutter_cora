@@ -15,6 +15,27 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`flutter_cora` - `v0.0.1-dev.13`](#flutter_cora---v001-dev13)
+
+---
+
+#### `flutter_cora` - `v0.0.1-dev.13`
+
+ - **DOCS**: add codecov badge in readme.
+
+
+## 2024-09-28
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`flutter_cora` - `v0.0.1-dev.12`](#flutter_cora---v001-dev12)
 
 ---
