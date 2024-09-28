@@ -9,5 +9,6 @@ on:
 jobs:
   publish:
     uses: ./.github/workflows/publish.yml
+    secrets: inherit
     with:
       working-directory: packages/flutter_cora

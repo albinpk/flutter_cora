@@ -58,6 +58,6 @@ jobs:
           PUB_REFRESH_TOKEN: ${{ secrets.PUB_REFRESH_TOKEN }}
           PUB_ID_TOKEN: ${{ secrets.PUB_ID_TOKEN }}
 
-      # - name: Publish to pub.dev
-      #   run: flutter pub publish -f
-      #   working-directory: ${{ inputs.working-directory }}
+      - name: Publish to pub.dev
+        run: flutter pub publish -f
+        working-directory: ${{ inputs.working-directory }}
