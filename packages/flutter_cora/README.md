@@ -49,3 +49,5 @@ class ExampleState extends CoraState<ExampleView> {
   }
 }
 ```
+
+## Additional information
