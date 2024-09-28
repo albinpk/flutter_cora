@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2024-09-28
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`flutter_cora` - `v0.0.1-dev.9`](#flutter_cora---v001-dev9)
+
+---
+
+#### `flutter_cora` - `v0.0.1-dev.9`
+
+ - **DOCS**: update readme.
+
+
 ## 2024-09-26
 
 ### Changes
