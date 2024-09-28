@@ -15,6 +15,38 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`flutter_cora` - `v0.0.1-dev.14`](#flutter_cora---v001-dev14)
+ - [`flutter_cora_riverpod` - `v0.0.1-dev.2`](#flutter_cora_riverpod---v001-dev2)
+
+---
+
+#### `flutter_cora` - `v0.0.1-dev.14`
+
+ - **FIX**: update readme.
+
+#### `flutter_cora_riverpod` - `v0.0.1-dev.2`
+
+ - **FIX**: update example app.
+ - **FIX**: create example app for flutter_cora_riverpod.
+ - **FIX**: add test for cora consumer.
+ - **FIX**: update test.
+ - **FIX**: create `CoraConsumerView` and `CoraConsumerState`.
+ - **FIX**: update pubspec.yaml.
+ - **FEAT**: create `flutter_cora_riverpod` package.
+
+
+## 2024-09-28
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`flutter_cora` - `v0.0.1-dev.13`](#flutter_cora---v001-dev13)
 
 ---
