@@ -3,6 +3,8 @@
 [![codecov](https://codecov.io/github/albinpk/flutter_cora/graph/badge.svg?token=D40JS077DY)](https://codecov.io/github/albinpk/flutter_cora)
 ![Pub Version](https://img.shields.io/pub/v/flutter_cora)
 ![GitHub License](https://img.shields.io/github/license/albinpk/flutter_cora)
+![GitHub last commit](https://img.shields.io/github/last-commit/albinpk/flutter_cora?path=packages%2Fflutter_cora)
+![Pub Points](https://img.shields.io/pub/points/flutter_cora)
 
 **flutter_cora** is a simple Flutter package for implementing the view-controller pattern, helping you separate UI and business logic to maintain cleaner and more organized code.
 
