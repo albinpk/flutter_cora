@@ -29,8 +29,14 @@ jobs:
         working-directory: packages/flutter_cora
 
       - name: Flutter test
-        run: flutter test
+        run: flutter test --coverage
         working-directory: packages/flutter_cora
+
+      - name: Upload test results to Codecov
+        if: ${{ !cancelled() }}
+        uses: codecov/test-results-action@v1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
 
       - name: Publish - dry run
         run: flutter pub publish --dry-run
