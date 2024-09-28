@@ -1,4 +1,4 @@
-name: Publish flutter_cora_riverpod to pub.dev
+name: deploy
 
 on:
   push:
