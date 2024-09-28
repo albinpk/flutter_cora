@@ -1,3 +1,9 @@
+## 0.0.1-dev.3
+
+ - **FIX**: update repo urls in pubspec.yaml.
+ - **DOCS**: add codecov badge in readme.
+ - **DOCS**: update readme with sample code.
+
 ## 0.0.1-dev.2
 
  - **FIX**: update example app.

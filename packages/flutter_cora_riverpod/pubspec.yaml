@@ -2,7 +2,7 @@ name: flutter_cora_riverpod
 
 description: "A simple Flutter package for separating UI and business logic using a view-controller pattern."
 
-version: 0.0.1-dev.2
+version: 0.0.1-dev.3
 
 homepage: https://github.com/albinpk/flutter_cora/tree/dev/packages/flutter_cora_riverpod
 repository: https://github.com/albinpk/flutter_cora/tree/dev/packages/flutter_cora_riverpod
