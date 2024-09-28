@@ -1,0 +1,13 @@
+name: Publish flutter_cora to pub.dev
+
+on:
+  push:
+    branches: dev
+    tags:
+      - "flutter_cora-v[0-9]+.[0-9]+.[0-9]+*"
+
+jobs:
+  publish:
+    uses: ./.github/workflows/publish.yml
+    with:
+      working-directory: packages/flutter_cora
