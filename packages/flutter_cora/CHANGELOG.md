@@ -1,3 +1,7 @@
+## 0.0.1-dev.10
+
+ - **FIX**: update codecov action.
+
 ## 0.0.1-dev.9
 
  - **DOCS**: update readme.
