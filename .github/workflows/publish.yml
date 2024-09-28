@@ -32,18 +32,14 @@ jobs:
         run: flutter test --coverage
         working-directory: packages/flutter_cora
 
-      - uses: codecov/codecov-action@v4
+      - name: Upload coverage to codecov
+        uses: codecov/codecov-action@v4
         with:
-          # fail_ci_if_error: true # optional (default = false)
-          # files: ./coverage1.xml,./coverage2.xml # optional
-          # flags: unittests # optional
-          token: ${{ secrets.CODECOV_TOKEN }} # required
-          # name: codecov-umbrella # optional
-          # verbose: true # optional (default = false)
+          token: ${{ secrets.CODECOV_TOKEN }}
 
-      - name: Publish - dry run
-        run: flutter pub publish --dry-run
-        working-directory: packages/flutter_cora
+      # - name: Publish - dry run
+      #   run: flutter pub publish --dry-run
+      #   working-directory: packages/flutter_cora
 
       - name: Setup pub credentials
         run: |
