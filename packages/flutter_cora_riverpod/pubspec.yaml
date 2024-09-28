@@ -4,7 +4,9 @@ description: "A simple Flutter package for separating UI and business logic usin
 
 version: 0.0.1-dev.2
 
-# homepage:
+homepage: https://github.com/albinpk/flutter_cora/tree/dev/packages/flutter_cora_riverpod
+repository: https://github.com/albinpk/flutter_cora/tree/dev/packages/flutter_cora_riverpod
+issue_tracker: https://github.com/albinpk/flutter_cora/issues
 
 environment:
   sdk: ^3.5.3
