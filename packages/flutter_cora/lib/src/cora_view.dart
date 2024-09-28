@@ -1,5 +1,7 @@
 import 'package:flutter/widgets.dart';
 
+import 'cora_state.dart';
+
 /// A base class for Flutter widgets that can be used with [CoraState].
 ///
 /// It provides a `build` method that is called when the widget needs to be
