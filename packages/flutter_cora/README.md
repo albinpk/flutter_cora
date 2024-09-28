@@ -24,6 +24,7 @@ dependencies:
 Here is a simple example of how to use `flutter_cora`.
 
 ```dart
+/// example_view.dart
 class ExampleView extends CoraView<ExampleState> {
   const ExampleView({
     required this.name,
@@ -34,20 +35,21 @@ class ExampleView extends CoraView<ExampleState> {
 
   @override
   Widget build(ExampleState state) {
-    return Text('Example View ${state.count}');
+    return Text('Count ${state.count}');
   }
 
   @override
   ExampleState createState() => ExampleState();
 }
 
+/// example_state.dart
 class ExampleState extends CoraState<ExampleView> {
   int count = 1;
 
   @override
   void initState() {
     super.initState();
-    print(widget.name);
+    print('name: ${widget.name}');
   }
 }
 ```
