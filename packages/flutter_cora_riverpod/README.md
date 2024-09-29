@@ -21,7 +21,7 @@ To use this package, add `flutter_cora_riverpod` as a dependency in your pubspec
 
 ```yaml
 dependencies:
-  flutter_cora_riverpod: ^0.0.1-dev.3
+  flutter_cora_riverpod: ^0.0.1-dev.4
 ```
 
 ## Usage

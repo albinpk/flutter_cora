@@ -3,6 +3,42 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2024-09-29
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`flutter_cora` - `v0.0.1-dev.16`](#flutter_cora---v001-dev16)
+ - [`flutter_cora_riverpod` - `v0.0.1-dev.4`](#flutter_cora_riverpod---v001-dev4)
+
+---
+
+#### `flutter_cora` - `v0.0.1-dev.16`
+
+ - **DOCS**: add exact version in readme. ([16e51333](https://github.com/albinpk/flutter_cora/commit/16e513336eb84b25c9d77ae645b21a1aa95a7c12))
+ - **DOCS**: add badges to root readme. ([d7843dc5](https://github.com/albinpk/flutter_cora/commit/d7843dc534b4a324f2f76a4a5a6a19d27fbfcb89))
+ - **DOCS**: add packages list in root readme. ([ae008dda](https://github.com/albinpk/flutter_cora/commit/ae008dda63598fef163c52a482802a4fa7365735))
+ - **DOCS**: add pub points and last commit badge. ([5cc14a51](https://github.com/albinpk/flutter_cora/commit/5cc14a51830ab256e5af05c7af32b2d4223ce909))
+ - **DOCS**: add github license badge. ([152eefd7](https://github.com/albinpk/flutter_cora/commit/152eefd76b8995b36b8303121e3701612c8340dd))
+ - **DOCS**: add pub badge in readme. ([ddcb0115](https://github.com/albinpk/flutter_cora/commit/ddcb01154f78ce1646fa3a890319a9519717a312))
+
+#### `flutter_cora_riverpod` - `v0.0.1-dev.4`
+
+ - **DOCS**: add exact version in readme. ([16e51333](https://github.com/albinpk/flutter_cora/commit/16e513336eb84b25c9d77ae645b21a1aa95a7c12))
+ - **DOCS**: add badges to root readme. ([d7843dc5](https://github.com/albinpk/flutter_cora/commit/d7843dc534b4a324f2f76a4a5a6a19d27fbfcb89))
+ - **DOCS**: add packages list in root readme. ([ae008dda](https://github.com/albinpk/flutter_cora/commit/ae008dda63598fef163c52a482802a4fa7365735))
+ - **DOCS**: add pub points and last commit badge. ([5cc14a51](https://github.com/albinpk/flutter_cora/commit/5cc14a51830ab256e5af05c7af32b2d4223ce909))
+ - **DOCS**: add github license badge. ([152eefd7](https://github.com/albinpk/flutter_cora/commit/152eefd76b8995b36b8303121e3701612c8340dd))
+ - **DOCS**: add pub badge in readme. ([ddcb0115](https://github.com/albinpk/flutter_cora/commit/ddcb01154f78ce1646fa3a890319a9519717a312))
+
+
 ## 2024-09-28
 
 ### Changes
