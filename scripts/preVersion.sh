@@ -8,4 +8,5 @@ do
     readmeDir="$(dirname $pubspecFile)/README.md"
     packageName=$(basename $(dirname $pubspecFile))
     sed -i "s/  $packageName: ^[0-9]\+.[0-9]\+.[0-9]\+.*$/  $packageName: ^$newVersion/" $readmeDir
+    git add $readmeDir
 done
