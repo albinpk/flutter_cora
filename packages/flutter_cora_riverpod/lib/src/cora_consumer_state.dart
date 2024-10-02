@@ -8,7 +8,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 /// This class extends the [ConsumerState] class so all the lifecycle methods like
 /// [initState], [didChangeDependencies], [didUpdateWidget], [dispose] are
 /// available to override.
-abstract class CoraConsumerState<T extends CoraConsumerView> extends ConsumerState<T> {
+abstract class CoraConsumerState<T extends CoraConsumerView>
+    extends ConsumerState<T> {
   @nonVirtual
   @override
   Widget build(BuildContext context) {

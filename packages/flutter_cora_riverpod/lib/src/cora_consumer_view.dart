@@ -13,7 +13,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 /// See also:
 ///
 /// * [CoraConsumerState], which is the base class for the state of a [CoraConsumerView].
-abstract class CoraConsumerView<T extends ConsumerState> extends ConsumerStatefulWidget {
+abstract class CoraConsumerView<T extends ConsumerState>
+    extends ConsumerStatefulWidget {
   /// Constructs a [CoraConsumerView].
   const CoraConsumerView({super.key});
 
