@@ -2,6 +2,8 @@
 
 # Script for update package version in README.md (usage section)
 
+echo "Updating package version in README.md"
+
 for pubspecFile in $(git diff --name-only "packages/*/pubspec.yaml")
 do
     newVersion=$(grep '^version: [0-9]\+.[0-9]\+.[0-9]\+.*$' $pubspecFile | awk '{print $2}')
@@ -10,3 +12,5 @@ do
     sed -i "s/  $packageName: ^[0-9]\+.[0-9]\+.[0-9]\+.*$/  $packageName: ^$newVersion/" $readmeDir
     git add $readmeDir
 done
+
+echo "README.md updated"
