@@ -9,6 +9,9 @@
 
 **flutter_cora_riverpod** is a simple Flutter package for implementing the view-controller pattern, helping you separate UI and business logic to maintain cleaner and more organized code.
 
+> **Note:**
+> If you are not using [flutter_riverpod](https://pub.dev/packages/flutter_riverpod) for state management, check out [flutter_cora](https://pub.dev/packages/flutter_cora).
+
 ## Features
 
 - Separate UI (View) from business logic (State).
