@@ -3,6 +3,34 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2024-10-05
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`flutter_cora` - `v0.0.1-dev.17`](#flutter_cora---v001-dev17)
+ - [`flutter_cora_riverpod` - `v0.0.1-dev.5`](#flutter_cora_riverpod---v001-dev5)
+
+---
+
+#### `flutter_cora` - `v0.0.1-dev.17`
+
+ - **DOCS**: add link to `flutter_cora_riverpod` in readme. ([77f295ab](https://github.com/albinpk/flutter_cora/commit/77f295ab5dd3a4b3eefdd8f9de04f98fab198de9))
+
+#### `flutter_cora_riverpod` - `v0.0.1-dev.5`
+
+ - **FEAT**: add `read`, `watch` and `listen` methods in `CoraConsumerState`. ([f1f158b5](https://github.com/albinpk/flutter_cora/commit/f1f158b5d7cff6ae7f07f10c439981b5623f0b37))
+ - **DOCS**: update example app. ([662829ac](https://github.com/albinpk/flutter_cora/commit/662829ac155c621804fe0b4acc3274fbb55e9ce6))
+ - **DOCS**: add link to `flutter_cora` in readme. ([d548189a](https://github.com/albinpk/flutter_cora/commit/d548189ab3fed29d86fbed9f48838814473845fd))
+
+
 ## 2024-09-29
 
 ### Changes

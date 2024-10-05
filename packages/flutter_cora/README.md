@@ -24,7 +24,7 @@ To use this package, add `flutter_cora` as a dependency in your pubspec.yaml fil
 
 ```yaml
 dependencies:
-  flutter_cora: ^0.0.1-dev.16
+  flutter_cora: ^0.0.1-dev.17
 ```
 
 ## Usage

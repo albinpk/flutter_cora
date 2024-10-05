@@ -1,3 +1,7 @@
+## 0.0.1-dev.17
+
+ - **DOCS**: add link to `flutter_cora_riverpod` in readme. ([77f295ab](https://github.com/albinpk/flutter_cora/commit/77f295ab5dd3a4b3eefdd8f9de04f98fab198de9))
+
 ## 0.0.1-dev.16
 
  - **DOCS**: add exact version in readme. ([16e51333](https://github.com/albinpk/flutter_cora/commit/16e513336eb84b25c9d77ae645b21a1aa95a7c12))
