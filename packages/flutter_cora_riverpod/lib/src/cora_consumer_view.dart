@@ -1,6 +1,7 @@
 import 'package:flutter/widgets.dart';
-import 'package:flutter_cora_riverpod/src/cora_consumer_state.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+import 'cora_consumer_state.dart';
 
 /// A base class for Flutter widgets that can be used with [CoraConsumerState].
 ///
