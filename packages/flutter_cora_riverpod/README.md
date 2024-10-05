@@ -48,7 +48,7 @@ class ExampleView extends CoraConsumerView<ExampleState> {
   Widget build(ExampleState state) {
     return Column(
       children: [
-        Text(state.ref.watch(labelProvider)),
+        Text(state.watch(labelProvider)), // same as ref.watch
         Text(
           '${state.count}',
           style: Theme.of(state.context).textTheme.titleLarge,
@@ -69,7 +69,7 @@ class ExampleState extends CoraConsumerState<ExampleView> {
   void initState() {
     super.initState();
     print('name: ${widget.name}');
-    print('label: ${ref.read(labelProvider)}');
+    print('label: ${read(labelProvider)}'); // same as ref.read
   }
 }
 ```

@@ -43,7 +43,7 @@ class HomeScreen extends CoraConsumerView<HomeState> {
 
   @override
   Widget build(HomeState state) {
-    final label = state.ref.watch(labelProvider);
+    final label = state.watch(labelProvider); // same as ref.watch
     return Scaffold(
       body: Center(
         child: Column(
