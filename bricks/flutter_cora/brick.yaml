@@ -1,0 +1,22 @@
+name: flutter_cora
+description: Mason brick for flutter_cora
+
+# The following defines the brick repository url.
+# Uncomment and update the following line before publishing the brick.
+# repository: https://github.com/my_org/my_repo
+
+version: 0.0.1+1
+
+environment:
+  mason: ">=0.1.0-dev.60 <0.1.0"
+
+vars:
+  module:
+    type: string
+    prompt: Module name?
+    description: Name for the new module
+  dir:
+    type: string
+    prompt: Directory name?
+    description: The name of the directory for the new module
+    default: modules
