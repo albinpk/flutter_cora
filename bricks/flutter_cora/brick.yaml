@@ -1,9 +1,7 @@
 name: flutter_cora
 description: Mason brick for flutter_cora
 
-# The following defines the brick repository url.
-# Uncomment and update the following line before publishing the brick.
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/albinpk/flutter_cora/tree/dev/bricks/flutter_cora
 
 version: 0.0.1+1
 
