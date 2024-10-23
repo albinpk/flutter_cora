@@ -7,4 +7,5 @@ void run(HookContext context) {
   vars['dir'] = (vars['dir'] as String).snakeCase;
   vars['moduleSnake'] = (vars['module'] as String).snakeCase;
   vars['modulePascal'] = (vars['module'] as String).pascalCase;
+  vars['isRiverpod'] = vars['package'] == 'flutter_cora_riverpod';
 }

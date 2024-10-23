@@ -18,3 +18,7 @@ vars:
     prompt: Directory name?
     description: The name of the directory for the new module
     default: modules
+  package:
+    type: enum
+    prompt: Which package are you using?
+    values: ["flutter_cora", "flutter_cora_riverpod"]

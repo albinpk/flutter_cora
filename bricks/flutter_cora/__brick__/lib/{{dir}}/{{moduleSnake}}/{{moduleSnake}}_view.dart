@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_cora/flutter_cora.dart';
-
+{{#isRiverpod}}import 'package:flutter_cora_riverpod/flutter_cora_riverpod.dart';
+{{/isRiverpod}}{{^isRiverpod}}import 'package:flutter_cora/flutter_cora.dart';
+{{/isRiverpod}}
 import '{{moduleSnake}}_state.dart';
-
+{{#isRiverpod}}
+class {{modulePascal}}View extends CoraConsumerView<{{modulePascal}}State> {
+{{/isRiverpod}}{{^isRiverpod}}
 class {{modulePascal}}View extends CoraView<{{modulePascal}}State> {
-  const {{modulePascal}}View({super.key});
+{{/isRiverpod}}  const {{modulePascal}}View({super.key});
 
   @override
   {{modulePascal}}State createState() => {{modulePascal}}State();
