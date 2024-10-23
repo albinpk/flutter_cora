@@ -22,7 +22,7 @@ class _TestView extends CoraView<_TestState> {
   _TestState createState() => _TestState();
 
   @override
-  Widget build(_TestState state) {
+  Widget build(BuildContext context, _TestState state) {
     return Scaffold(
       body: Text(text),
     );

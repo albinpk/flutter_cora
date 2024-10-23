@@ -36,6 +36,6 @@ abstract class CoraConsumerState<T extends CoraConsumerView>
   @nonVirtual
   @override
   Widget build(BuildContext context) {
-    return widget.build(this);
+    return widget.build(context, this);
   }
 }

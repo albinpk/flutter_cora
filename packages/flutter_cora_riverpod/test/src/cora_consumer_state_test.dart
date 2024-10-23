@@ -91,7 +91,7 @@ class _CallbackWidget extends CoraConsumerView<_CallbackState> {
   final Widget Function(CoraConsumerState state) builder;
 
   @override
-  Widget build(_CallbackState state) => builder(state);
+  Widget build(BuildContext context, _CallbackState state) => builder(state);
 
   @override
   _CallbackState createState() => _CallbackState();

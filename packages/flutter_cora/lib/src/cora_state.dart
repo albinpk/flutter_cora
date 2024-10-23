@@ -12,6 +12,6 @@ abstract class CoraState<T extends CoraView> extends State<T> {
   @nonVirtual
   @override
   Widget build(BuildContext context) {
-    return widget.build(this);
+    return widget.build(context, this);
   }
 }

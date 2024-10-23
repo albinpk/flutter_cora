@@ -27,7 +27,7 @@ abstract class CoraConsumerView<T extends ConsumerState>
   /// It should return the widget to be displayed.
   ///
   /// The [state] parameter contains the state of the widget.
-  /// The [BuildContext] and [WidgetRef]  can be accessed from
-  /// the [state] parameter, like `state.context` and `state.ref`.
-  Widget build(T state);
+  /// The [WidgetRef] can be accessed from
+  /// the [state] parameter, like `state.ref`.
+  Widget build(BuildContext context, T state);
 }

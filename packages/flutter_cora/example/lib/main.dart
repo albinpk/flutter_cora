@@ -34,7 +34,7 @@ class HomeScreen extends CoraView<HomeState> {
   final int? initialValue;
 
   @override
-  Widget build(HomeState state) {
+  Widget build(BuildContext context, HomeState state) {
     return Scaffold(
       body: Center(
         child: Column(
@@ -43,7 +43,7 @@ class HomeScreen extends CoraView<HomeState> {
             // count
             Text(
               '${state.counter}',
-              style: Theme.of(state.context).textTheme.titleLarge,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
 
             const SizedBox(height: 20),

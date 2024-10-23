@@ -24,7 +24,6 @@ abstract class CoraView<T extends State> extends StatefulWidget {
   ///
   /// It should return the widget to be displayed.
   ///
-  /// The [state] parameter contains the state of the widget. The build context can
-  /// be accessed by the `context` getter like `state.context`.
-  Widget build(T state);
+  /// The [state] parameter contains the state of the widget.
+  Widget build(BuildContext context, T state);
 }
