@@ -1,3 +1,7 @@
+## 0.0.1-dev.18
+
+ - **FIX**: add `context` parameter in build method. ([0a982f47](https://github.com/albinpk/flutter_cora/commit/0a982f47920b890d64139141df7a4c94d7330d62))
+
 ## 0.0.1-dev.17
 
  - **DOCS**: add link to `flutter_cora_riverpod` in readme. ([77f295ab](https://github.com/albinpk/flutter_cora/commit/77f295ab5dd3a4b3eefdd8f9de04f98fab198de9))

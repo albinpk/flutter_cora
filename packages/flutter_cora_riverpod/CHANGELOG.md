@@ -1,3 +1,7 @@
+## 0.0.1-dev.6
+
+ - **FIX**: add `context` parameter in build method. ([0a982f47](https://github.com/albinpk/flutter_cora/commit/0a982f47920b890d64139141df7a4c94d7330d62))
+
 ## 0.0.1-dev.5
 
  - **FEAT**: add `read`, `watch` and `listen` methods in `CoraConsumerState`. ([f1f158b5](https://github.com/albinpk/flutter_cora/commit/f1f158b5d7cff6ae7f07f10c439981b5623f0b37))

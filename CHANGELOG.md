@@ -3,6 +3,32 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2024-10-23
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`flutter_cora` - `v0.0.1-dev.18`](#flutter_cora---v001-dev18)
+ - [`flutter_cora_riverpod` - `v0.0.1-dev.6`](#flutter_cora_riverpod---v001-dev6)
+
+---
+
+#### `flutter_cora` - `v0.0.1-dev.18`
+
+ - **FIX**: add `context` parameter in build method. ([0a982f47](https://github.com/albinpk/flutter_cora/commit/0a982f47920b890d64139141df7a4c94d7330d62))
+
+#### `flutter_cora_riverpod` - `v0.0.1-dev.6`
+
+ - **FIX**: add `context` parameter in build method. ([0a982f47](https://github.com/albinpk/flutter_cora/commit/0a982f47920b890d64139141df7a4c94d7330d62))
+
+
 ## 2024-10-05
 
 ### Changes
