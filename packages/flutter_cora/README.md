@@ -42,7 +42,7 @@ class ExampleView extends CoraView<ExampleState> {
   final String name;
 
   @override
-  Widget build(ExampleState state) {
+  Widget build(BuildContext context, ExampleState state) {
     return Text('Count ${state.count}');
   }
 

@@ -45,13 +45,13 @@ class ExampleView extends CoraConsumerView<ExampleState> {
   final String name;
 
   @override
-  Widget build(ExampleState state) {
+  Widget build(BuildContext context, ExampleState state) {
     return Column(
       children: [
         Text(state.watch(labelProvider)), // same as ref.watch
         Text(
           '${state.count}',
-          style: Theme.of(state.context).textTheme.titleLarge,
+          style: Theme.of(context).textTheme.titleLarge,
         ),
       ],
     );
