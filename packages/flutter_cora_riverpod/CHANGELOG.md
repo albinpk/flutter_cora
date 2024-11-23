@@ -1,3 +1,8 @@
+## 0.0.1-dev.7
+
+ - **FIX**: export flutter_riverpod package. ([f1f9cca7](https://github.com/albinpk/flutter_cora/commit/f1f9cca71c982a04ae96279551d0581449d2a235))
+ - **DOCS**: update `README.md`. ([7ec544dc](https://github.com/albinpk/flutter_cora/commit/7ec544dcc74cb9d60fb72928ca9fcff39c11dfc7))
+
 ## 0.0.1-dev.6
 
  - **FIX**: add `context` parameter in build method. ([0a982f47](https://github.com/albinpk/flutter_cora/commit/0a982f47920b890d64139141df7a4c94d7330d62))
