@@ -4,6 +4,7 @@ repository: https://github.com/albinpk/flutter_cora
 
 packages:
   - packages/*
+  - bricks/flutter_cora/
 
 sdkPath: .fvm/flutter_sdk
 
@@ -11,4 +12,5 @@ command:
   version:
     hooks:
       # Update the version in readme
-      preCommit: ./scripts/preVersion.sh
+      preCommit: ./scripts/preVersion.sh && ./scripts/h.sh
+      post: ./scripts/hook.sh
