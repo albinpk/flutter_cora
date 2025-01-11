@@ -3,10 +3,10 @@ description: Mason brick for flutter_cora
 
 repository: https://github.com/albinpk/flutter_cora/tree/dev/bricks/flutter_cora
 
-version: 0.0.1+2
+version: 0.0.2
 
 environment:
-  mason: ">=0.1.0-dev.60 <0.1.0"
+  mason: ^0.1.0
 
 vars:
   module:
