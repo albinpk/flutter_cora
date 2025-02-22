@@ -9,7 +9,13 @@ do
     newVersion=$(grep '^version: [0-9]\+.[0-9]\+.[0-9]\+.*$' $pubspecFile | awk '{print $2}')
     readmeDir="$(dirname $pubspecFile)/README.md"
     packageName=$(basename $(dirname $pubspecFile))
-    sed -i "s/  $packageName: ^[0-9]\+.[0-9]\+.[0-9]\+.*$/  $packageName: ^$newVersion/" $readmeDir
+    # sed -i "s/  $packageName: ^[0-9]\+.[0-9]\+.[0-9]\+.*$/  $packageName: ^$newVersion/" $readmeDir
+    if [[ "$OSTYPE" == "darwin"* ]]; then
+      sed -E -i '' "s/  $packageName: \^[0-9]+\.[0-9]+\.[0-9]+.*$/  $packageName: ^$newVersion/" "$readmeDir"
+    else
+      sed -E -i "s/  $packageName: \^[0-9]+\.[0-9]+\.[0-9]+.*$/  $packageName: ^$newVersion/" "$readmeDir"
+    fi
+
     git add $readmeDir
 done
 
