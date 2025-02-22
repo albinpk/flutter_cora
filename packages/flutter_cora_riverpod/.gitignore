@@ -30,3 +30,6 @@ build/
 
 # Codecov
 coverage/
+
+# FVM Version Cache
+.fvm/
