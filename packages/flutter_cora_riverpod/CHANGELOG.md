@@ -1,3 +1,7 @@
+## 0.0.1-dev.8
+
+ - **REFACTOR**: update Flutter version to 3.29.0 ([#2](https://github.com/albinpk/flutter_cora/issues/2)). ([f907ef6b](https://github.com/albinpk/flutter_cora/commit/f907ef6bf80dfdcc43a0bdac4ebde3f4b2c95279))
+
 ## 0.0.1-dev.7
 
  - **FIX**: export flutter_riverpod package. ([f1f9cca7](https://github.com/albinpk/flutter_cora/commit/f1f9cca71c982a04ae96279551d0581449d2a235))
