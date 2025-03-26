@@ -31,11 +31,16 @@ dependencies:
 
 Here is a simple example of how to use `flutter_cora_riverpod`.
 
+#### label_provider.dart
+
 ```dart
 /// Provider for the counter label.
 final labelProvider = Provider.autoDispose((ref) => 'Count');
+```
 
-/// example_view.dart
+#### example_view.dart
+
+```dart
 class ExampleView extends CoraConsumerView<ExampleState> {
   const ExampleView({
     required this.name,
@@ -60,8 +65,11 @@ class ExampleView extends CoraConsumerView<ExampleState> {
   @override
   ExampleState createState() => ExampleState();
 }
+```
 
-/// example_state.dart
+#### example_state.dart
+
+```dart
 class ExampleState extends CoraConsumerState<ExampleView> {
   int count = 1;
 
