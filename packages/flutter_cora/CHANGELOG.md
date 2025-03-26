@@ -1,3 +1,7 @@
+## 0.0.1-dev.21
+
+ - **DOCS**: update example code in README.md. ([d2a75050](https://github.com/albinpk/flutter_cora/commit/d2a750502b4029d2feca9e90a62b64d3c072b812))
+
 ## 0.0.1-dev.20
 
  - **REFACTOR**: update Flutter version to 3.29.0 ([#2](https://github.com/albinpk/flutter_cora/issues/2)). ([f907ef6b](https://github.com/albinpk/flutter_cora/commit/f907ef6bf80dfdcc43a0bdac4ebde3f4b2c95279))

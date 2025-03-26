@@ -3,6 +3,32 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2025-03-26
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`flutter_cora` - `v0.0.1-dev.21`](#flutter_cora---v001-dev21)
+ - [`flutter_cora_riverpod` - `v0.0.1-dev.9`](#flutter_cora_riverpod---v001-dev9)
+
+---
+
+#### `flutter_cora` - `v0.0.1-dev.21`
+
+ - **DOCS**: update example code in README.md. ([d2a75050](https://github.com/albinpk/flutter_cora/commit/d2a750502b4029d2feca9e90a62b64d3c072b812))
+
+#### `flutter_cora_riverpod` - `v0.0.1-dev.9`
+
+ - **DOCS**: update example code snippets in README.md. ([6ccc117a](https://github.com/albinpk/flutter_cora/commit/6ccc117a98592a57e66205d4ef8d51cd4e43feec))
+
+
 ## 2025-02-22
 
 ### Changes
