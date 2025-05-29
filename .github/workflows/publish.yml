@@ -47,7 +47,7 @@ jobs:
             "idToken": "$PUB_ID_TOKEN",
             "tokenEndpoint": "https://accounts.google.com/o/oauth2/token",
             "scopes": ["https://www.googleapis.com/auth/userinfo.email", "openid"],
-            "expiration": 1727370873000
+            "expiration": 1748541062041
           }
           EOF
         env:
