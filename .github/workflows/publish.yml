@@ -27,8 +27,8 @@ jobs:
         run: flutter test --coverage
         working-directory: ${{ inputs.working-directory }}
 
-      - name: Upload coverage to codecov
-        uses: codecov/codecov-action@v4
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v5
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           working-directory: ${{ inputs.working-directory }}
